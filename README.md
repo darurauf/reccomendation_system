@@ -56,14 +56,19 @@ Cosine similarity mengukur sudut antara dua vektor, bukan perbedaan nilai mereka
 Cosine Similarity = 𝐴 ⋅ 𝐵 / ∣∣𝐴∣∣ ⋅ ∣∣B∣∣
 
 Di mana:
+
 A dan B adalah vektor film
+
 𝐴 ⋅ 𝐵 adalah hasil perkalian dot product dari kedua vektor
+
 ∣∣𝐴∣∣ ⋅ ∣∣B∣∣ adalah hasil perkalian panjang (norma) kedua vektor
 
--Nilai Cosine Similarity:
+- Nilai Cosine Similarity:
 
 Jika nilainya 1, berarti kedua vektor sepenuhnya mirip.
+
 Jika nilainya 0, berarti tidak ada kemiripan.
+
 Nilai berkisar antara 0 hingga 1.
 
 Hasil Rekomendasi:
