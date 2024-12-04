@@ -38,9 +38,9 @@ Link Sumber Data: https://www.kaggle.com/datasets/grouplens/movielens-20m-datase
 ## Data Preparation
 Dalam tahap ini, beberapa teknik data preparation yang diterapkan adalah:
 
-Penggabungan Dataset: Menggunakan pd.merge() untuk menggabungkan ratings dan movies berdasarkan movieId.
-Pivot Table: Membuat pivot table menggunakan pd.pivot_table() untuk mengubah data menjadi format yang lebih mudah digunakan untuk analisis.
-Penanganan Missing Values: Menggunakan fillna(0) untuk mengganti nilai yang hilang dengan 0, menunjukkan bahwa pengguna belum memberikan rating untuk film tertentu.
+- Penggabungan Dataset: Menggunakan pd.merge() untuk menggabungkan ratings dan movies berdasarkan movieId.
+- Pivot Table: Membuat pivot table menggunakan pd.pivot_table() untuk mengubah data menjadi format yang lebih mudah digunakan untuk analisis.
+- Penanganan Missing Values: Menggunakan fillna(0) untuk mengganti nilai yang hilang dengan 0, menunjukkan bahwa pengguna belum memberikan rating untuk film tertentu.
 
 ## Modeling and Result
 Model yang digunakan dalam sistem rekomendasi ini adalah cosine similarity, yang berfungsi untuk mengukur seberapa mirip dua film berdasarkan rating yang diberikan oleh pengguna. Jika dua film memiliki pola rating yang serupa, maka nilai cosine similarity-nya akan tinggi, sehingga film tersebut dianggap mirip.
@@ -67,6 +67,7 @@ Jika nilainya 0, berarti tidak ada kemiripan.
 Nilai berkisar antara 0 hingga 1.
 
 Hasil Rekomendasi:
+
 Untuk contoh, user dengan ID 2 mendapat rekomendasi seperti:
 - Aliens (1986)
 - Total Recall (1990) 
