@@ -68,20 +68,20 @@ Nilai berkisar antara 0 hingga 1.
 
 Hasil Rekomendasi:
 Untuk contoh, user dengan ID 2 mendapat rekomendasi seperti:
-Aliens (1986)
-Total Recall (1990) 
-Terminator, The (1984)
-Fifth Element, The (1997)
-Twelve Monkeys (a.k.a. 12 Monkeys) (1995)
+- Aliens (1986)
+- Total Recall (1990) 
+- Terminator, The (1984)
+- Fifth Element, The (1997)
+- Twelve Monkeys (a.k.a. 12 Monkeys) (1995)
 
 Model ini berhasil memberikan rekomendasi berdasarkan kesamaan film yang telah ditonton, sehingga bisa membantu pengguna menemukan film yang sesuai dengan selera mereka.
 
 ## Evaluation
 Metrik evaluasi yang digunakan dalam proyek ini adalah Mean Squared Error (MSE). MSE mengukur selisih antara nilai yang diprediksi dan nilai sebenarnya, di mana semakin mendekati nilai 1 MSE, semakin baik kinerja model. Dalam proyek ini, nilai MSE yang dihasilkan oleh model adalah 0.87.
 
--Apakah sudah menjawab problem statment?
+- Apakah sudah menjawab problem statment?
 Sudah, model berhasil memberikan rekomendasi film yang sesuai dengan preferensi pengguna, sehingga memecahkan masalah utama.
--Apakah berhasil mencapai goals yang diharapkan?
+- Apakah berhasil mencapai goals yang diharapkan?
 Berhasil, model telah mencapai tujuan dengan meningkatkan kepuasan pengguna melalui rekomendasi film yang relevan berdasarkan rating.
--Apakah solusi statement yang kamu rencanakan berdampak?
+- Apakah solusi statement yang kamu rencanakan berdampak?
 berdampak, solusi ini membantu pengguna menemukan film lebih mudah, meningkatkan pengalaman dan keterlibatan pengguna dengan platform.
